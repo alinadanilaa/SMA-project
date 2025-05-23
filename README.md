@@ -4,7 +4,7 @@ This project explores community structures, centrality, genre clustering, and mo
 
 ## Notebooks
 
-### `Spotify.ipynb`
+### `Spotify_Clean_Run.ipynb`
 This notebook performs the complete end-to-end analysis from scratch, including:
 
 - Data import and graph construction  
@@ -46,9 +46,9 @@ You can install any missing dependencies using pip:
 
 ## Usage:
 
-To generate everything from scratch, either open `Spotify.ipynb` in Google Colab, making sure to upload dataset.csv first, or run:
+To generate everything from scratch, either open `Spotify_Clean_Run.ipynb` in Google Colab, making sure to upload dataset.csv first, or run:
 
-`jupyter notebook Spotify.ipynb`
+`jupyter notebook Spotify_Clean_Run.ipynb`
 
 To skip benchmarking and load precomputed results instead, open `Spotify2.ipynb` in Google Colab, making sure to upload all files mentioned above, or run:
 
