@@ -46,7 +46,7 @@ You can install any missing dependencies using pip:
 
 ## Usage:
 
-To generate everything from scratch, either open `Spotify_Clean_Run.ipynb` in Google Colab, making sure to upload dataset.csv first, or run:
+To generate everything from scratch, either open `Spotify_Clean_Run.ipynb` in Google Colab, making sure to upload `dataset.csv` first, or run:
 
 `jupyter notebook Spotify_Clean_Run.ipynb`
 
