@@ -20,7 +20,7 @@ This process will generate:
 - `louvain_benchmark_results.csv`: Benchmark results comparing custom vs. standard Louvain  
 - `louvain_comparison.png`: A visual plot of the benchmarking results
 
-### `Spotify2.ipynb`
+### `Spotify_preRun_Louvain.ipynb`
 This notebook is optimized for faster execution by reusing precomputed results. It expects the following files to already be present in the same directory:
 
 - `custom_louvain_top1000.pkl`  
@@ -36,12 +36,12 @@ Ensure the following Python libraries are installed:
 - `networkx`  
 - `pandas`  
 - `matplotlib`  
-- `community` (for the standard Louvain implementation)  
+- `community`  
 - `pickle`
 
 You can install any missing dependencies using pip:
 
-`pip install networkx pandas matplotlib python-louvain`
+`pip install networkx pandas matplotlib python-louvain pickle`
 
 
 ## Usage:
