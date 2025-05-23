@@ -27,7 +27,7 @@ This notebook is optimized for faster execution by reusing precomputed results. 
 - `louvain_benchmark_results.csv`  
 - `louvain_comparison.png`
 
-Running `Spotify2.ipynb` will take only a few minutes, making it ideal for reviewing results without the extended computation time.
+Running `Spotify_preRun_Louvain.ipynb` will take only a few minutes, making it ideal for reviewing results without the extended computation time.
 
 ## Requirements
 
@@ -50,6 +50,6 @@ To generate everything from scratch, either open `Spotify_Clean_Run.ipynb` in Go
 
 `jupyter notebook Spotify_Clean_Run.ipynb`
 
-To skip benchmarking and load precomputed results instead, open `Spotify2.ipynb` in Google Colab, making sure to upload all files mentioned above, or run:
+To skip benchmarking and load precomputed results instead, open `Spotify_preRun_Louvain.ipynb` in Google Colab, making sure to upload all files mentioned above, or run:
 
-`jupyter notebook Spotify2.ipynb`
+`jupyter notebook Spotify_preRun_Louvain.ipynb`
